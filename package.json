@@ -1,0 +1,28 @@
+{
+    "name": "genai-server",
+    "version": "1.0.0",
+    "description": "Lightweight GenAI server for local tool use",
+    "main": "dist/index.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "tsc",
+        "start": "node ./dist/index.js",
+        "dev": "tsx watch ./src/index.ts"
+    },
+    "author": "Nicolas Pope",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/express": "^5.0.3",
+        "@types/node": "^24.0.10",
+        "tsx": "^4.20.3",
+        "typescript": "^5.8.3"
+    },
+    "dependencies": {
+        "dotenv": "^16.4.5",
+        "express": "^5.1.0",
+        "peer": "^1.0.2",
+        "peerjs-js-binarypack": "^1.0.2",
+        "winston": "^3.17.0"
+    }
+}
