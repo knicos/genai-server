@@ -15,6 +15,7 @@
     "devDependencies": {
         "@types/express": "^5.0.3",
         "@types/node": "^24.0.10",
+        "@types/yargs": "^17.0.33",
         "tsx": "^4.20.3",
         "typescript": "^5.8.3"
     },
@@ -23,6 +24,7 @@
         "express": "^5.1.0",
         "peer": "^1.0.2",
         "peerjs-js-binarypack": "^1.0.2",
-        "winston": "^3.17.0"
+        "winston": "^3.17.0",
+        "yargs": "^18.0.0"
     }
 }
