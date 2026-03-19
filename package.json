@@ -22,6 +22,7 @@
     "dependencies": {
         "dotenv": "^16.4.5",
         "express": "^5.1.0",
+        "jszip": "^3.10.1",
         "peer": "^1.0.2",
         "peerjs-js-binarypack": "^1.0.2",
         "winston": "^3.17.0",
